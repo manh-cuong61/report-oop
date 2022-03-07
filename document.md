@@ -80,7 +80,8 @@ ex: Student::$name;
     Cho phép các lớp con kế thừa và sử dụng lại tất cả các phương thức và thuộc tính của class cha, những thuộc tính và phương thức đó phải mang cơ chế public hoặc protected
 
 11. Tính trừu tượng:
-    Trừu tượng là tổng quát hóa một cái gì đó lên, không cần chú ý đến chi tiết bên trong
+    - tính trừu tượng được sinh ra để định nghĩa những cái chung nhất cho những class con kế thừa nó. nó chỉ cần định nghĩa tên và không cần viết chi tiết bên trong của phương thức đó, những class con kế thừa nó sẽ phải định nghĩa lại các phương thức đó
+    - ví dụ như chó và chim đều kế thừa sử dụng phương thức 'run' nhưng chó sẽ định nghĩa lại chi tiết bên trong phù hợp với nó là chạy bằng 4 chân còn chim sẽ chạy bằng 2 chân 
 
 12. Tính đa hình:
     2 hoặc nhiều lớp có những phương thức giống nhau nhưng có thể thực thi theo những cách khác nhau
