@@ -40,6 +40,7 @@
 
 - dùng từ khóa extends để kế thừa
 - ghi đè dữ liệu(overide): ở class cha và class con có thuộc tính hoặc phương thức trùng tên
+- Overloading là một kĩ thuật cho phép trong cùng một class có thể có nhiều phương thức cùng tên nhưng khác nhau về số lượng tham số hoặc kiểu dữ liệu tham số
 
 5. Hằng số trong class php
 - const NAME_CONST = value;

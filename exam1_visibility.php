@@ -19,13 +19,13 @@ class Student extends Person
     {
         return $this->address;
     }
-    // public chỉ truy cập được bên trong class
+    // private chỉ truy cập được bên trong class
     public function getPhone()
     {
         return $this->phone;
     }
 
-    // ex ghi đè dữ liệu với function getName() của class cha persion
+    // ex: ghi đè dữ liệu với function getName() của class cha persion
     public function getName()
     {
         return 'Name from student class';
